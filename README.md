@@ -1,15 +1,15 @@
-#INTRODUCTION
+# INTRODUCTION
 
 -Microsoft's FAT file system can be read and operated on using this program. By traversing the FAT table this program acquire infomations needed to perform specific actions on the file system.
 
-#INPUT
+# INPUT
 
 -A file system (a file with a .dmg or .img extension)
 -./diskinfo take 1 argument which is the file system
 -./disklist take 1 argument which is the file system
 -./diskget take 3 argument: file system, file name to be found, file name of output file
 
-#OUTPUT
+# OUTPUT
 
 -./diskinfo list all info of the file system and the FAT table
 ie.
@@ -35,7 +35,7 @@ F 8 foo3.txt 2005/11/15 12:00:00
 
 -./diskget copy a file from the file system and output it to the working directory
 
-#HIGH-LEVEL OVERVIEW
+# HIGH-LEVEL OVERVIEW
 
 ./disklist
 -creates a superblock struct with the info of the superblock which is the first block of the FAT system
