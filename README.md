@@ -13,24 +13,14 @@
 
 - ./diskinfo list all info of the file system and the FAT table
 ie.
-Super block information:
-Block size: 512
-Block count: 5120
-FAT starts: 1
-FAT blocks: 40
-Root directory start: 41
-Root directory blocks: 8
-FAT information:
-Free Blocks: 5071
-Reserved Blocks: 41
-Allocated Blocks: 8
+<img width="168" alt="image" src="https://user-images.githubusercontent.com/63203684/176587361-8fb7dcf8-afae-4ab1-9f49-8038ed59fac1.png">
+<img width="183" alt="image" src="https://user-images.githubusercontent.com/63203684/176587397-f51c1adc-a1fe-49a2-8352-f9d609a0a81b.png">
+
 
 - ./disklist list all file and directory with F for file and D for directory, size, filename,creation date and time
 ie.
-F 2560 foo.txt 2005/11/15 12:00:00
-F 5120 foo2.txt 2005/11/15 12:00:00
-F 48127 makefs 2005/11/15 12:00:00
-F 8 foo3.txt 2005/11/15 12:00:00
+<img width="375" alt="image" src="https://user-images.githubusercontent.com/63203684/176587440-42f587a0-2ed6-485d-bb4d-abba9cefb54e.png">
+
 
 - ./diskget copy a file from the file system and output it to the working directory
 
