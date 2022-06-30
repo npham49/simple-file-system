@@ -1,4 +1,5 @@
 #INTRODUCTION
+
 -Microsoft's FAT file system can be read and operated on using this program. By traversing the FAT table this program acquire infomations needed to perform specific actions on the file system.
 
 #INPUT
